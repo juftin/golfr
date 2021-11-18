@@ -11,11 +11,7 @@ from django.urls import reverse
 from golfr.users.forms import UserChangeForm
 from golfr.users.models import User
 from golfr.users.tests.factories import UserFactory
-from golfr.users.views import (
-    UserRedirectView,
-    UserUpdateView,
-    user_detail_view,
-)
+from golfr.users.views import UserRedirectView, UserUpdateView, user_detail_view
 
 pytestmark = pytest.mark.django_db
 
